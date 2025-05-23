@@ -4,21 +4,35 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="./src/TARS.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="google-site-verification" content="KNsvIJO9AfJqyOD5tGhbxrFeh-q9irvp_ZGEJEZMYQg" />
+
   <title>Markton | RTU SGPA, CGPA & Exam Helper</title>
+
   <meta name="description"
     content="Markton is your one-stop RTU Exam Companion. Instantly calculate your SGPA, CGPA, and percentage. Access RTU syllabus, notes, previous papers, and motivational quotes." />
   <meta name="keywords"
-    content="Markton, RTU SGPA Calculator, RTU CGPA, RTU Percentage, RTU Notes, RTU Syllabus, RTU Previous Papers, RTU Exam Help" />
+    content="Rajasthan Technical University, RTU SGPA Calculator, RTU CGPA, RTU Percentage, RTU Notes, RTU Syllabus, RTU Previous Papers, RTU Exam Help" />
   <meta name="author" content="Shivam Mishra" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://markton.vercel.app/" />
+
+  <!-- Open Graph Meta -->
   <meta property="og:title" content="Markton | RTU SGPA & CGPA Calculator" />
   <meta property="og:description"
     content="Calculate your RTU SGPA, CGPA & Percentage instantly. Explore notes, syllabus, and exam prep resources." />
-  <meta property="og:image" content="https://markton.vercel.app/" />
+  <meta property="og:image" content="https://markton.vercel.app/og-preview.png" />
   <meta property="og:url" content="https://markton.vercel.app/" />
-  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
 
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Markton | RTU SGPA & CGPA Calculator" />
+  <meta name="twitter:description"
+    content="Instant RTU CGPA, SGPA & Percentage calculator. Explore study notes, syllabus & past papers." />
+  <meta name="twitter:image" content="https://markton.vercel.app/og-preview.png" />
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -26,7 +40,11 @@
 
 <body>
   <div id="root"></div>
+
+  <!-- App Script -->
   <script type="module" src="/src/main.tsx"></script>
+
+  <!-- Structured Data -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -41,8 +59,21 @@
         "name": "Shivam Mishra"
       }
     }
-    </script>
-    
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOccupationalProgram",
+      "name": "RTU SGPA and CGPA Calculator",
+      "educationalProgramMode": "online",
+      "educationalCredentialAwarded": ["CGPA", "SGPA"],
+      "provider": {
+        "@type": "Organization",
+        "name": "Markton",
+        "url": "https://markton.vercel.app"
+      }
+    }
+  </script>
 </body>
 
 </html>

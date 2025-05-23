@@ -1,3 +1,13 @@
 User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /private/
 Allow: /
+
+# Prevent crawl delay or overloading if you're on limited hosting
+Crawl-delay: 5
+
+# Pointing to the sitemap for better indexing
 Sitemap: https://markton.vercel.app/sitemap.xml

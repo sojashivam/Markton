@@ -87,7 +87,7 @@ const Home: React.FC = () => {
                 <ul className="space-y-2">
                   <li>
                     <a 
-                      href="/syllabus" 
+                      href="https://rtu.ac.in/index/view_menudata.php?page=RTU-Syllabus4" 
                       className="text-primary-500 dark:text-primary-400 hover:underline flex items-center"
                     >
                       <span className="h-1.5 w-1.5 rounded-full bg-primary-500 dark:bg-primary-400 inline-block mr-2"></span>
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
                   </li>
                   <li>
                     <a 
-                      href="/papers" 
+                      href="https://www.rtuonline.com/btech-cs-question-papers.html#semester" 
                       className="text-primary-500 dark:text-primary-400 hover:underline flex items-center"
                     >
                       <span className="h-1.5 w-1.5 rounded-full bg-primary-500 dark:bg-primary-400 inline-block mr-2"></span>
@@ -104,13 +104,13 @@ const Home: React.FC = () => {
                     </a>
                   </li>
                   <li>
-                    <a 
+                    {/* <a 
                       href="/notes" 
                       className="text-primary-500 dark:text-primary-400 hover:underline flex items-center"
                     >
                       <span className="h-1.5 w-1.5 rounded-full bg-primary-500 dark:bg-primary-400 inline-block mr-2"></span>
                       Subject Notes
-                    </a>
+                    </a> */}
                   </li>
                   <li>
                     <a 
